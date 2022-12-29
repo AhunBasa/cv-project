@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.name > div > input {
+  font-size: 3rem;
+  color: red;
+}
+
+.profession,
+.profession > div > input {
+  font-size: 1.8rem;
+}
+
+.contacts > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.logo {
+  width: 25px;
+  display: inline-block;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 1.5rem;
+}
