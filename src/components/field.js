@@ -12,7 +12,7 @@ class Field extends React.Component {
 
     this.state = {
       //input mode = true, display mode = false
-      mode: true,
+      mode: false,
       text: this.props.defaultText,
     }
   }

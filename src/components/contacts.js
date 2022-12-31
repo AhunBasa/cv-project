@@ -3,6 +3,7 @@ import Field from './field'
 import { ReactComponent as MailLogo } from '../icons/mail.svg'
 import { ReactComponent as TelephoneLogo } from '../icons/telephone.svg'
 import { ReactComponent as AddressLogo } from '../icons/address.svg'
+import { ReactComponent as LinkedinLogo } from '../icons/linkedin.svg'
 
 class Contacts extends React.Component {
   constructor() {
@@ -13,15 +14,19 @@ class Contacts extends React.Component {
     return (
       <div className="contacts">
         <div>
-          <MailLogo className="logo" width={'2rem'} />
-          <Field defaultText="name@email.com" />
-        </div>
-        <div>
           <TelephoneLogo
             className="
           logo"
           />
           <Field defaultText="(222)222-22222" />
+        </div>
+        <div>
+          <MailLogo className="logo" />
+          <Field defaultText="name@email.com" />
+        </div>
+        <div>
+          <LinkedinLogo className="logo" />
+          <Field defaultText="linkedin.com" />
         </div>
         <div>
           <AddressLogo className="logo" />

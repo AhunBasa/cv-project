@@ -12,7 +12,7 @@ class GeneralInfo extends React.Component {
       <div className="general-info">
         <div className="name-profession">
           <div className="name">
-            <Field defaultText="First Name Last Name" />
+            <Field defaultText="Ahun Basa" />
           </div>
           <div className="profession">
             <Field defaultText="Profession Unknown" />
